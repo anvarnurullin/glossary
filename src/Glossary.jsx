@@ -5,7 +5,7 @@ import './Glossary.css'
 function Glossary() {
   return (
     <div class="wrapper">
-        <Link to="/">
+        <Link to="/mindmap">
             <button>Семантический граф</button>
         </Link>
         <ul>
