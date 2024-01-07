@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/mindmap" element={<Mindmap />} />
+        <Route path="/" element={<Mindmap />} />
         <Route path="/glossary" element={<Glossary />} />
       </Routes>
     </BrowserRouter>
